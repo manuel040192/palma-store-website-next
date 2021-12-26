@@ -33,7 +33,7 @@ function PetsAndOwners() {
                         }}
                     >
                         <div style={{ position: 'relative' }}>
-                            <a href="/goods/gallery01"><img src="https://firebasestorage.googleapis.com/v0/b/auth-development-b3b63.appspot.com/o/cover-petsandowners.JPEG?alt=media&token=7e3b4c72-b34c-4718-8431-4412e5d845f2" style={{ width: 350, height: 310, objectFit: 'cover' }}/></a>
+                            <a href="/petsandowners/gallery01"><img src="https://firebasestorage.googleapis.com/v0/b/auth-development-b3b63.appspot.com/o/cover-petsandowners.JPEG?alt=media&token=7e3b4c72-b34c-4718-8431-4412e5d845f2" style={{ width: 350, height: 310, objectFit: 'cover' }}/></a>
                             <span style={{ position: 'absolute', top: 135, left: 140, color: '#ffffff', fontFamily: 'Rajdhani', fontSize: 28, fontWeight: 400 }}></span>    
                         </div>      
                     </div>
