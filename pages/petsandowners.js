@@ -51,7 +51,15 @@ function PetsAndOwners() {
                         <div style={{ position: 'relative' }}>
                             <a href="/petsandowners/gallery05"><img src="https://firebasestorage.googleapis.com/v0/b/auth-development-b3b63.appspot.com/o/pets-blanco-negro-1.JPEG?alt=media&token=8562127e-6d61-492b-ad9a-f46e5371def7" style={{ width: 350, height: 310, objectFit: 'cover' }}/></a>
                             <span style={{ position: 'absolute', top: 135, left: 140, color: '#ffffff', fontFamily: 'Rajdhani', fontSize: 28, fontWeight: 400 }}></span>    
-                        </div>           
+                        </div>
+                        <div style={{ position: 'relative' }}>
+                            <a href="/petsandowners/gallery06"><img src="https://firebasestorage.googleapis.com/v0/b/auth-development-b3b63.appspot.com/o/pets-negro-rojo-verde-1.JPEG?alt=media&token=36910f6e-80a9-4ce7-bcea-b0e3d882e91f" style={{ width: 350, height: 310, objectFit: 'cover' }}/></a>
+                            <span style={{ position: 'absolute', top: 135, left: 140, color: '#ffffff', fontFamily: 'Rajdhani', fontSize: 28, fontWeight: 400 }}></span>    
+                        </div>
+                        <div style={{ position: 'relative' }}>
+                            <a href="/petsandowners/gallery07"><img src="https://firebasestorage.googleapis.com/v0/b/auth-development-b3b63.appspot.com/o/pets-blanco-rojo-verde-1.JPG?alt=media&token=ae1ade01-52fd-44a9-80ba-a68ff005a00f" style={{ width: 350, height: 310, objectFit: 'cover' }}/></a>
+                            <span style={{ position: 'absolute', top: 135, left: 140, color: '#ffffff', fontFamily: 'Rajdhani', fontSize: 28, fontWeight: 400 }}></span>    
+                        </div>             
                     </div>
                 </div>
             </div>
