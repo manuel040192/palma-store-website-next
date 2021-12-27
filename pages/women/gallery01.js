@@ -6,20 +6,16 @@ import styled from 'styled-components';
 function Carousel() {
   const images = [
     {
-      original: "https://imagizer.imageshack.com/img924/3168/dBmZr8.jpg",
-      thumbnail: "https://imagizer.imageshack.com/img924/3168/dBmZr8.jpg"
+      original: "https://firebasestorage.googleapis.com/v0/b/auth-development-b3b63.appspot.com/o/chaqueta-mangas-cuadros-1.JPEG?alt=media&token=a6c62ec5-e7aa-4bb0-99a9-eb2d0d0729e7",
+      thumbnail: "https://firebasestorage.googleapis.com/v0/b/auth-development-b3b63.appspot.com/o/chaqueta-mangas-cuadros-1.JPEG?alt=media&token=a6c62ec5-e7aa-4bb0-99a9-eb2d0d0729e7"
     },
     {
-      original: "https://imagizer.imageshack.com/img923/2639/9Ildr1.jpg",
-      thumbnail: "https://imagizer.imageshack.com/img923/2639/9Ildr1.jpg"
+      original: "https://firebasestorage.googleapis.com/v0/b/auth-development-b3b63.appspot.com/o/chaqueta-mangas-cuadros-2.JPEG?alt=media&token=0ed3cf48-5abe-4816-aafc-611c05c4a459",
+      thumbnail: "https://firebasestorage.googleapis.com/v0/b/auth-development-b3b63.appspot.com/o/chaqueta-mangas-cuadros-2.JPEG?alt=media&token=0ed3cf48-5abe-4816-aafc-611c05c4a459"
     },
     {
-      original: "https://imagizer.imageshack.com/img922/1858/RvRflR.jpg",
-      thumbnail: "https://imagizer.imageshack.com/img922/1858/RvRflR.jpg"
-    },
-    {
-      original: "https://imagizer.imageshack.com/img922/6738/ZahNjl.jpg",
-      thumbnail: "https://imagizer.imageshack.com/img922/6738/ZahNjl.jpg"
+      original: "https://firebasestorage.googleapis.com/v0/b/auth-development-b3b63.appspot.com/o/chaqueta-mangas-cuadros-3.JPEG?alt=media&token=5ab619a0-4058-466d-baa1-837925329ea4",
+      thumbnail: "https://firebasestorage.googleapis.com/v0/b/auth-development-b3b63.appspot.com/o/chaqueta-mangas-cuadros-3.JPEG?alt=media&token=5ab619a0-4058-466d-baa1-837925329ea4"
     },
   ];
 
