@@ -1,4 +1,4 @@
-import Header from '../components/Navbar';
+import Header from '../../components/Navbar';
 
 function Women() {
     return (
