@@ -56,7 +56,7 @@ const NavMenu = styled.div`
     align-items: center;
     justify-content: start;
     flex: 1;
-    padding-left: 10px;
+    padding-left: 20px;
 
     a {
         font-family: 'Rajdhani', sans-serif;
