@@ -7,7 +7,7 @@ function PetsAndOwners() {
             <div style={{
                     display: 'flex',
                     position: 'relative',
-                    height: '486px',
+                    height: '816px',
                     width: '100%',
                     alignItems: 'center',
                     justifyContent: 'center',
