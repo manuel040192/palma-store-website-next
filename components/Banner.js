@@ -14,15 +14,21 @@ export default function Banner() {
                     <div className={styles.text2}>Attention</div>
                 </Fade>
                 <ButtonGroup>
-                    <Women>
-                        <p><a href='/women'>Shop Women</a></p>
-                    </Women>
-                    <Pets>
-                        <p><a href='/petsandowners'>Shop Pets</a></p>
-                    </Pets>
-                    <Goods>
-                        <p><a href='/goods'>Shop Goods</a></p>
-                    </Goods>
+                    <a href='/women' className={styles.button}>
+                        <Women>
+                            <p><a href='/women'>Shop Women</a></p>
+                        </Women>
+                    </a>
+                    <a href='/petsandowners' className={styles.button}>
+                        <Pets>
+                            <p><a href='/petsandowners'>Shop Pets</a></p>
+                        </Pets>
+                    </a>
+                    <a href='/goods' className={styles.button}>
+                        <Goods>
+                            <p><a href='/goods'>Shop Goods</a></p>
+                        </Goods>
+                    </a>
                 </ButtonGroup>
             </Image>
         </Container>
