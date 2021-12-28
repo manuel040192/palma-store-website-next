@@ -21,6 +21,10 @@ function Carousel() {
       original: "https://imagizer.imageshack.com/img922/6738/ZahNjl.jpg",
       thumbnail: "https://imagizer.imageshack.com/img922/6738/ZahNjl.jpg"
     },
+    {
+      original: "https://firebasestorage.googleapis.com/v0/b/auth-development-b3b63.appspot.com/o/medias-amarillo-5.jpg?alt=media&token=3d87a1b7-b1a1-493e-b732-a86df79ca945",
+      thumbnail: "https://firebasestorage.googleapis.com/v0/b/auth-development-b3b63.appspot.com/o/medias-amarillo-5.jpg?alt=media&token=3d87a1b7-b1a1-493e-b732-a86df79ca945"
+    },
   ];
 
   return (
