@@ -1,6 +1,6 @@
 import Header from '../components/Navbar';
 import Banner from '../components/Banner';
-import ProductTypeCovers from '../components/ProductTypeCovers';
+import Products_Home from '../components/Products_Home';
 import styles from '../styles.module.css';
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
     <div className={styles.container}>
       <Header />
       <Banner />
-      <ProductTypeCovers />
+      <Products_Home />
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import Header from '../../components/Navbar';
+import ButtonAndText from '../../components/ButtonAndText';
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
 import styled from 'styled-components';
@@ -31,6 +32,7 @@ function Carousel() {
           thumbnailPosition={"left"}
         />
       </Container>
+      <ButtonAndText />
     </div>
   );
 }
