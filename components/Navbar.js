@@ -29,52 +29,40 @@ export default function Header() {
             <Logo>
                 <p><a href='/'>PALMA</a></p>
             </Logo>
+            <EmptyComponent><p className={styles.whitetext}>Text</p></EmptyComponent>
         </Container>
     )
 }
 
-
 const Container = styled.div`
-    min-height: 80px;
+    height: 80px;
+    display: grid;
+    grid-template-areas: "grid-menu-links grid-menu-logo grid-menu-icons";
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 80px;
     position: fixed;
-    display: flex;
-    align-items: center;
-    padding-right: 0 20px;
-    left: 0;
-    right: 0;
     z-index: 1;
+    top: 0;
+    width: 100%;
     background-color: #ffffff;
     font-family: 'Rajdhani', sans-serif;
     font-weight: lighter;
-    /* a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    } */    
 `
 
 const NavMenu = styled.div`
     display: flex;
+    grid-area: grid-menu-links;    
     align-items: center;
-    justify-content: start;
-    flex: 1;
-    padding-left: 20px;
-    width: 300px;
     a {
         font-family: 'Rajdhani', sans-serif;
         font-weight: 400;
         font-size: 22px;
+        padding-left: 30px;
+        padding-right: 15px;
         letter-spacing: 1px;
-        padding-right: 20px;
-        padding-left: 20px;
-        flex-wrap: nowrap;
         color: #000000;
         text-decoration: none;
-        transition: font-weight .2s ease-in-out;
         width: 60px;
-    }
-    a:hover {
-        font-weight: 600;
     }
     @media (max-width: 768px) {
         display: none;
@@ -146,18 +134,16 @@ const CloseWrapper = styled.div`
 `
 
 const Logo = styled.div`
-    flex: 3 0 auto;
-    width: 300px;
-    
+    display: flex;
+    grid-area: grid-menu-logo;
+    justify-content: center;
+    align-items: center;
     a {
         text-decoration: none;
         font-family: 'Alike';
         font-size: 28px; 
         color: #000000; 
         letter-spacing: 3px;
-        display: flex;
-        width: 112px;
-        transform: translateX(270px);
     }
     @media (max-width: 768px) {
         a {
@@ -167,44 +153,14 @@ const Logo = styled.div`
             color: #000000;
             display: flex;
             padding-right: 10.7rem;
-            width: 150px;
             transform: translateX(4.9rem);
         }
     }
-`   
+`
 
-{/* const NavMenu = styled.div`
+const EmptyComponent = styled.div`
     display: flex;
+    grid-area: grid-menu-icons;
+    justify-content: space-around;
     align-items: center;
-    justify-content: start;
-    flex: 1;
-    padding-right: 40px;
-
-    a {
-        font-weight: 400;
-        font-size: 24px;
-        letter-spacing: 1px;
-        padding-right: 20px;
-        padding-left: 5px;
-        flex-wrap: nowrap;
-        color: #303030;
-        text-decoration: none;
-        transition: font-weight .2s ease-in-out;
-        width: 60px;
-    }
-
-    a:hover {
-        font-weight: 900;
-    }
-` */}
-
-{/* const NavMenu = styled.div`
-    display: none;
-    @media (max-width: 900px) {
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        flex: 1;
-        padding-right: 40px;
-    }
-` */}
+`
