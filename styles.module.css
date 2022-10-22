@@ -125,5 +125,9 @@
 
 .textdecoration {
     text-decoration: none;
-}    
+}
+
+.whitetext {
+    color: #ffffff;
+}
 
