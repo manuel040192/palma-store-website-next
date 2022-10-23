@@ -152,8 +152,6 @@ const Logo = styled.div`
             font-size: 28px; 
             color: #000000;
             display: flex;
-            padding-right: 10.7rem;
-            transform: translateX(4.9rem);
         }
     }
 `
