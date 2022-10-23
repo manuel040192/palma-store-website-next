@@ -11,6 +11,8 @@ Información destacada:
 - Corregir bugs.
 - Desarrollar diversos tipos de galerías de productos con React Image Gallery y desarrollo responsive.
 - Desplegar aplicación web en Vercel.
+- Cambiar "display: flex;" del CSS de Navbar, que está en el archivo Navbar.js, a "display: grid", además de otros cambios realizados a ese CSS, para hacer que el logo no se mueva cuando los paddings de los enlaces de navegación sean cambiados y para hacer que el logo esté en el centro de la barra de navegación.
+- Eliminar "padding-right: 10.7rem;" y "transform: translateX(4.9rem);" de la media query de 768px para abajo de a que está en el CSS de Logo en el archivo Navbar.js.
 
 Highlighted information:
 
@@ -22,3 +24,5 @@ Highlighted information:
 - Debugging.
 - Developing several product gallery types with React Image Gallery and responsive development.
 - Deploying web application to Vercel.
+- Changing "display: flex;" from Navbar's CSS (Navbar is in the Navbar.js file) to "display: grid", along with other changes made to that CSS, to make the logo not to move when the navlinks' paddings are changed and to make the logo to be on the navbar's center.
+- Removing "padding-right: 10.7rem;" and "transform: translateX(4.9rem);" from the 768px and below media query for a that's in Logo's CSS.
